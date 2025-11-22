@@ -3,15 +3,17 @@
 ProdigyFlow is an **AI-powered multi-agent data analytics framework** designed to automate end-to-end exploratory analysis, visualization, insights generation, and reporting. It enables students, analysts, and researchers to turn raw datasets into meaningful business insights with minimal manual effort.
 
 This project has been developed as part of an academic capstone initiative by:
-**Komal Harshita & Priyamvadha Sahasvi Nune**,  
+**Malliboyina Surya Manikanta**,  
 Department of Computer Science & Engineering.
 
 ---
 
-## Project Motivation — Why We Chose This
+## Project Motivation — Why I Chose This
+
 In real-world business environments, analysts spend **70–80% of time cleaning, exploring, and summarizing data** before any modelling or decision-making. This process is repetitive, time-consuming, and prone to error.
 
-We wanted to build a system that:
+I wanted to build a system that:
+
 - **Speeds up exploratory analysis**
 - **Automatically generates insights and visual summaries**
 - **Allows anyone to analyze datasets without advance ML knowledge**
@@ -22,6 +24,7 @@ ProdigyFlow reflects our goal to create **simple, useful, modular tools** that s
 ---
 
 ## 🎯 Objectives
+
 - Build a backend-first analytics automation system using agent architecture.
 - Support data ingestion, cleaning, visualization, metadata extraction, and insight generation.
 - Utilize **Gemini models** for natural-language summaries and understanding.
@@ -32,25 +35,25 @@ ProdigyFlow reflects our goal to create **simple, useful, modular tools** that s
 
 ## 🧠 Core Features
 
-| Feature | Description |
-|---------|------------|
-| Automated Data Analysis Agent | Generates insights, metadata & summaries |
-| Visualization Agent | Creates automated charts & visual summaries |
-| Gemini-powered AI Summary | Natural-language insights from data |
-| Structured Output Formatting | Clean and professional console reporting |
-| Modular Agent Design | Add or replace agents independently |
-| CSV/Excel Ingestion Support | Easily test custom datasets |
+| Feature                       | Description                                 |
+| ----------------------------- | ------------------------------------------- |
+| Automated Data Analysis Agent | Generates insights, metadata & summaries    |
+| Visualization Agent           | Creates automated charts & visual summaries |
+| Gemini-poIred AI Summary      | Natural-language insights from data         |
+| Structured Output Formatting  | Clean and professional console reporting    |
+| Modular Agent Design          | Add or replace agents independently         |
+| CSV/Excel Ingestion Support   | Easily test custom datasets                 |
 
 ---
 
 ## 🤖 Core System Agents
 
-| Agent Name | Responsibility | Output |
-|----------- |---------------|--------|
-| `analysis_agent.py` | Reads dataset, extracts statistics, generates Gemini summary | Insights, metadata JSON |
-| `visualization_agent.py` | Generates visual graphs and saves locally | PNG charts |
-| `cleaning_agent.py` | Cleans missing values, formatting, and structure | Cleaned dataset |
-| `test_gemini.py` | Tests Gemini API connection | Model response output |
+| Agent Name               | Responsibility                                               | Output                  |
+| ------------------------ | ------------------------------------------------------------ | ----------------------- |
+| `analysis_agent.py`      | Reads dataset, extracts statistics, generates Gemini summary | Insights, metadata JSON |
+| `visualization_agent.py` | Generates visual graphs and saves locally                    | PNG charts              |
+| `cleaning_agent.py`      | Cleans missing values, formatting, and structure             | Cleaned dataset         |
+| `test_gemini.py`         | Tests Gemini API connection                                  | Model response output   |
 
 ---
 
@@ -60,12 +63,12 @@ ProdigyFlow reflects our goal to create **simple, useful, modular tools** that s
 
 ```bash
 python -m venv .venv
-.\.venv\Scripts\activate         
-source .venv/bin/activate   
+.\.venv\Scripts\activate
+source .venv/bin/activate
 
 ```
 
-### **2️⃣ Install dependencies**  
+### **2️⃣ Install dependencies**
 
 ```bash
 pip install -r requirements.txt
@@ -108,9 +111,9 @@ file_path = "data/your_file.csv"
 
 🤖 AI-GENERATED SUMMARY
 -----------------------
-• Key performance trends detected  
-• Distribution shows variation in subject performance  
-• Potential improvement insights  
+• Key performance trends detected
+• Distribution shows variation in subject performance
+• Potential improvement insights
 
 📁 METADATA
 -----------
@@ -121,35 +124,34 @@ file_path = "data/your_file.csv"
 
 ---
 
-## ✨ What We Learned
+## ✨ What I Learned
 
-* Designing **modular agent architectures**
-* Integrating **Gemini AI** with Python backends
-* Automating analytics workflows like real data analysts
-* Practical environment setup, dependency management & debugging
-* Dataset quality, structure, visualization and reporting best practices
-* Leveraging GitHub workflow and documentation standards
+- Designing **modular agent architectures**
+- Integrating **Gemini AI** with Python backends
+- Automating analytics workflows like real data analysts
+- Practical environment setup, dependency management & debugging
+- Dataset quality, structure, visualization and reporting best practices
+- Leveraging GitHub workflow and documentation standards
 
 ---
 
 ## Future Scope
 
-🔹 Build a web-based interface using FastAPI/Streamlit
+🔹 Build a Web-based interface using FastAPI/Streamlit
 🔹 Add database integration and Auto-EDA dashboards
 🔹 Support PDF report generation
 🔹 Multi-file dataset comparison
 🔹 Plug-and-play Machine Learning agent
 
-ProdigyFlow is only the beginning — we plan to expand it into a fully intelligent analytical automation assistant.
+ProdigyFlow is only the beginning — I plan to expand it into a fully intelligent analytical automation assistant.
 
 ---
 
 ## 🤝 Contributors
 
-| Name                         | Role                                               |
-| ---------------------------- | -------------------------------------------------- |
-| **Komal Harshita**           | Lead Developer, Agent Architecture, AI Integration |
-| **Priyamvadha Sahasvi Nune** | Data Research, Analytics, Testing & Documentation  |
+| Name                            | Role                                                                                                  |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Malliboyina Surya Manikanta** | Lead Developer, Agent Architecture, AI Integration, Data Research, Analytics, Testing & Documentation |
 
 ---
 
@@ -160,7 +162,7 @@ If you like this project, please ⭐ star the repository and share feedback!
 ### 🔗 Useful Links
 
 📦 Repository
-[https://github.com/komalharshita/prodigyflow](https://github.com/komalharshita/prodigyflow)
+[https://github.com/komalharshita/prodigyflow](https://github.com/suryaNoble/kaggle-capstone)
 
 📘 Project Documentation
 [https://komalharshita.github.io/prodigyflow/](https://komalharshita.github.io/prodigyflow/)
