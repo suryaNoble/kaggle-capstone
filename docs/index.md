@@ -162,10 +162,10 @@ If you like this project, please ⭐ star the repository and share feedback!
 ### 🔗 Useful Links
 
 📦 Repository
-[https://github.com/komalharshita/prodigyflow](https://github.com/suryaNoble/kaggle-capstone)
+[https://github.com/suryaNoble/kaggle-capstone](https://github.com/suryaNoble/kaggle-capstone)
 
 📘 Project Documentation
-[https://komalharshita.github.io/prodigyflow/](https://komalharshita.github.io/prodigyflow/)
+[https://suryanoble.github.io/kaggle-capstone/](https://suryanoble.github.io/kaggle-capstone/)
 
 ---
 

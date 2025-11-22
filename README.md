@@ -2,7 +2,7 @@
 
 _A Capstone Project for the Kaggle Agents Intensive Program_
 
-<img width="900" height="550" alt="main thumbnai" src="https://github.com/user-attachments/assets/34db2c20-72e7-463f-8aff-ad6f65d977ea" />
+<img width="900" height="550" alt="main thumbnai" src="mainThumbnail.png" />
 
 ---
 
